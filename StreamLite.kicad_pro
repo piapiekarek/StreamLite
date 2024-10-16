@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 2.0
         }
       },
       "diff_pair_dimensions": [],
@@ -455,34 +455,17 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.6,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "24V",
+        "name": "24V/GND1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
-        "via_diameter": 1.2,
-        "via_drill": 0.6,
-        "wire_width": 8
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
         "via_diameter": 1.2,
         "via_drill": 0.6,
         "wire_width": 10
@@ -496,13 +479,30 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "5V/GND",
+        "name": "3V3/GND3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 10.0,
+        "track_width": 0.6,
         "via_diameter": 1.2,
         "via_drill": 0.6,
-        "wire_width": 12
+        "wire_width": 16
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.6,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5V/GND2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
+        "wire_width": 13
       }
     ],
     "meta": {
@@ -512,40 +512,52 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "24V",
+        "netclass": "24V/GND1",
         "pattern": "+24V"
       },
       {
-        "netclass": "5V/GND",
+        "netclass": "5V/GND2",
         "pattern": "GND"
       },
       {
-        "netclass": "24V",
+        "netclass": "24V/GND1",
         "pattern": "/WW2"
       },
       {
-        "netclass": "24V",
+        "netclass": "24V/GND1",
         "pattern": "/WW1"
       },
       {
-        "netclass": "3V3",
+        "netclass": "3V3/GND3",
         "pattern": "+3V3"
       },
       {
-        "netclass": "5V/GND",
+        "netclass": "5V/GND2",
         "pattern": "+5V"
       },
       {
-        "netclass": "5V/GND",
+        "netclass": "5V/GND2",
         "pattern": "/V_IN"
       },
       {
-        "netclass": "24V",
+        "netclass": "24V/GND1",
         "pattern": "/CW1"
       },
       {
-        "netclass": "24V",
+        "netclass": "24V/GND1",
         "pattern": "/CW2"
+      },
+      {
+        "netclass": "24V/GND1",
+        "pattern": "GND1"
+      },
+      {
+        "netclass": "5V/GND2",
+        "pattern": "GND2"
+      },
+      {
+        "netclass": "3V3/GND3",
+        "pattern": "GND3"
       }
     ]
   },

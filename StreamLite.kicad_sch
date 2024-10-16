@@ -1031,6 +1031,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3682,7 +3803,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:GND1"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -3699,7 +3820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GND1"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3725,7 +3846,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3743,7 +3864,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GND1_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -3757,7 +3878,199 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND2"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND2"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND3_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -3784,6 +4097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17b2372e-f811-4250-935e-74045508b1fa")
+	)
+	(junction
+		(at 48.26 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19b1431e-71a3-4854-a717-f76145992ce0")
 	)
 	(junction
 		(at 320.04 90.17)
@@ -3834,16 +4153,22 @@
 		(uuid "804dd0f2-3307-4b38-8296-8411aca5de76")
 	)
 	(junction
+		(at 146.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e6906a-20f5-44fb-aa98-1229ea928377")
+	)
+	(junction
+		(at 80.01 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a441f7f-bab5-4580-a4c2-1822d1707129")
+	)
+	(junction
 		(at 50.8 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d385a72-1969-4232-abc7-71b68e5ebb19")
-	)
-	(junction
-		(at 52.07 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d730c2b-9384-4e3f-b319-08af769da782")
 	)
 	(junction
 		(at 325.12 162.56)
@@ -4049,7 +4374,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 146.05 82.55)
+			(xy 132.08 82.55) (xy 134.62 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4149,7 +4474,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 85.09 49.53)
+			(xy 76.2 49.53) (xy 80.01 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4199,7 +4524,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 58.42) (xy 88.9 58.42)
+			(xy 41.91 60.96) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4209,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 85.09 36.83)
+			(xy 85.09 39.37) (xy 85.09 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4226,16 +4551,6 @@
 			(type default)
 		)
 		(uuid "1aa1de96-5d74-4495-8da9-18a70b39bd5f")
-	)
-	(wire
-		(pts
-			(xy 52.07 49.53) (xy 52.07 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc98912-c681-4c5c-a98d-4a706a357dd5")
 	)
 	(wire
 		(pts
@@ -4299,7 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 50.8 49.53)
+			(xy 50.8 44.45) (xy 50.8 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4369,6 +4684,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 82.55) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2889c131-5173-4a9d-8bb4-71200cb3a4ce")
+	)
+	(wire
+		(pts
 			(xy 227.33 77.47) (xy 228.6 77.47)
 		)
 		(stroke
@@ -4416,6 +4741,16 @@
 			(type default)
 		)
 		(uuid "2bba3058-fa96-484f-b2a4-63d66b281954")
+	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 85.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d321688-3d35-4e5f-9c41-d3b21e1fe65c")
 	)
 	(wire
 		(pts
@@ -4579,7 +4914,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 50.8 40.64)
+			(xy 50.8 38.1) (xy 50.8 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4649,16 +4984,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 49.53) (xy 63.5 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d09e91-104e-4959-ab70-70ac759dac99")
-	)
-	(wire
-		(pts
 			(xy 91.44 102.87) (xy 91.44 97.79)
 		)
 		(stroke
@@ -4679,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 49.53) (xy 85.09 45.72)
+			(xy 85.09 49.53) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4789,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 58.42)
+			(xy 88.9 36.83) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4829,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 49.53) (xy 52.07 49.53)
+			(xy 50.8 49.53) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 49.53) (xy 76.2 49.53)
+			(xy 63.5 49.53) (xy 64.77 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5039,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 76.2 36.83)
+			(xy 76.2 39.37) (xy 76.2 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5109,7 +5434,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 63.5 40.64)
+			(xy 63.5 38.1) (xy 63.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5126,6 +5451,16 @@
 			(type default)
 		)
 		(uuid "934653e3-1579-4fc7-8179-9d4b426b5ea6")
+	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 80.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9561abb4-e4a0-4523-a19b-c78fae2f30b2")
 	)
 	(wire
 		(pts
@@ -5166,6 +5501,26 @@
 			(type default)
 		)
 		(uuid "9c7d6880-537e-489c-9f61-d96bfe44f35f")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2d5bc7-e8ed-4f85-a2a7-eb52564b6ae6")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.53) (xy 48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0bcf8c-3115-40e7-b314-8e1aff8ffbdc")
 	)
 	(wire
 		(pts
@@ -5409,6 +5764,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 82.55) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3510ed6-fc74-4b39-8ba5-75fbd8f5bdeb")
+	)
+	(wire
+		(pts
 			(xy 345.44 105.41) (xy 345.44 106.68)
 		)
 		(stroke
@@ -5439,7 +5804,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 45.72) (xy 76.2 49.53)
+			(xy 76.2 44.45) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5569,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 41.91 58.42)
+			(xy 41.91 52.07) (xy 41.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +6134,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 45.72) (xy 63.5 49.53)
+			(xy 48.26 49.53) (xy 50.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6318779-422e-4f59-91da-e00a31f8cb62")
+	)
+	(wire
+		(pts
+			(xy 63.5 44.45) (xy 63.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5789,13 +6164,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 49.53) (xy 50.8 49.53)
+			(xy 38.1 49.53) (xy 48.26 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8a37f6e-47a3-449f-97ae-2b1bea761743")
+		(uuid "fbd3719f-14a7-4411-bd28-2196a7593ea8")
 	)
 	(wire
 		(pts
@@ -6026,7 +6401,7 @@
 	)
 	(global_label "LED1"
 		(shape input)
-		(at 69.85 193.04 0)
+		(at 69.85 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6036,7 +6411,7 @@
 		)
 		(uuid "50587970-5137-4b74-9ff1-4f791e6c083a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.4918 193.04 0)
+			(at 77.4918 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6467,7 @@
 	)
 	(global_label "LED2"
 		(shape input)
-		(at 69.85 195.58 0)
+		(at 69.85 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6102,7 +6477,7 @@
 		)
 		(uuid "6c8fbf32-bfb7-49aa-8ad2-03452156c1e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.4918 195.58 0)
+			(at 77.4918 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,17 +6708,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 52.07 0)
+		(lib_id "power:GND1")
+		(at 345.44 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "037db005-76bb-4a46-b3ad-de00de9438b4")
-		(property "Reference" "#PWR042"
-			(at 52.07 58.42 0)
+		(uuid "003485c0-f541-426e-b6eb-55bcf413f881")
+		(property "Reference" "#PWR016"
+			(at 345.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,8 +6726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 52.07 57.15 0)
+		(property "Value" "GND1"
+			(at 345.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 52.07 0)
+			(at 345.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 52.07 0)
+			(at 345.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,8 +6752,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 345.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,12 +6762,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "880cdb65-1b81-46c7-a5c5-0deb5d26b50a")
+			(uuid "b156eaf2-c1ad-4560-a1cd-b463068731c7")
 		)
 		(instances
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR042")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 53.34 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01bc218f-3902-45cc-9a6c-ea475ce948a9")
+		(property "Reference" "#PWR035"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "725ef7b1-5cd4-4e73-b510-307ae0d14e03")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6602,6 +7043,72 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1137e2d1-1b67-4c8c-be60-6de2f5ec5dcd")
+		(property "Reference" "#PWR048"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f55c991d-4eb4-4371-891f-c5d91715ad60")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6890,6 +7397,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND3")
+		(at 146.05 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c21a64d-a531-4128-af61-a9dee608652d")
+		(property "Reference" "#PWR07"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1769b49d-d8c5-466e-8cfd-991a4109e59f")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 49.53 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e6f9bed-1384-45b4-99fb-325e58aa4308")
+		(property "Reference" "#PWR02"
+			(at 49.53 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 49.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 49.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeb87a0a-9ecf-40e8-9a0f-13f50b52bdd6")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 372.11 43.18 0)
 		(unit 1)
@@ -7027,7 +7666,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 85.09 43.18 0)
+		(at 85.09 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7035,7 +7674,7 @@
 		(dnp no)
 		(uuid "225e5fe3-aa31-471e-9f61-921460d87619")
 		(property "Reference" "C7"
-			(at 80.772 41.91 0)
+			(at 80.772 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7683,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 78.232 43.688 0)
+			(at 78.232 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7692,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 85.09 43.18 0)
+			(at 85.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 43.18 0)
+			(at 85.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7710,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 85.09 43.18 0)
+			(at 85.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,6 +7728,72 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 80.01 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2798493a-b7bd-41ca-82ff-2b7457f01398")
+		(property "Reference" "#PWR03"
+			(at 80.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 80.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 80.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc550d1e-7423-4737-9a15-430486f61ee6")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7237,6 +7942,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 365.76 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e9a1ace-03e6-42ec-be27-73190f93a7f0")
+		(property "Reference" "#PWR017"
+			(at 365.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 365.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 365.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08f1b1a3-dd92-4c6c-b30c-1855a382cdfb")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 146.05 76.2 0)
 		(unit 1)
@@ -7301,6 +8072,72 @@
 			(project ""
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 350.52 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eecc14d-0b82-44a6-8076-1f0929eedd4b")
+		(property "Reference" "#PWR026"
+			(at 350.52 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 350.52 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 350.52 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a953cae2-cd6f-4878-bf1b-4f6aacfa3fa0")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7584,6 +8421,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND3")
+		(at 91.44 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3502c495-ab36-4627-85f8-26a17811f9c0")
+		(property "Reference" "#PWR08"
+			(at 91.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 91.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0015a580-13d7-46c6-b2df-2cbfe9fcdd36")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 49.53 128.27 0)
 		(unit 1)
@@ -7644,72 +8547,6 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38a289d8-f66b-4638-9f83-33234bf17375")
-		(property "Reference" "#PWR03"
-			(at 53.34 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c210ca91-58e7-4e34-909f-50e6152ce4b6")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7922,72 +8759,6 @@
 			(project ""
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 350.52 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c39cedf-2e75-4da3-b57b-9d83b064d513")
-		(property "Reference" "#PWR027"
-			(at 350.52 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d5d4ab2-52c4-4410-ac22-0de95f08bf4e")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8270,6 +9041,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 370.84 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a167693-79af-4bef-b359-d816dfec7218")
+		(property "Reference" "#PWR032"
+			(at 370.84 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 370.84 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 370.84 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "790a61b3-64a9-4291-8c18-c1dca8b52394")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 345.44 100.33 180)
 		(unit 1)
@@ -8334,6 +9171,72 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 325.12 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c663d9-2b11-41cd-934b-db25f523e5e1")
+		(property "Reference" "#PWR025"
+			(at 325.12 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 325.12 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 325.12 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24845759-51f0-452b-a959-ed4c98db4db2")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8548,17 +9451,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 81.28 0)
+		(lib_id "Device:NetTie_2")
+		(at 67.31 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56e3fbb1-372b-4bad-86c2-ce0945868e41")
-		(property "Reference" "#PWR034"
-			(at 226.06 87.63 0)
+		(uuid "567882b6-d213-4552-8b7e-73929fc18324")
+		(property "Reference" "NT1"
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 67.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 67.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,16 +9485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 81.28 0)
+		(property "Datasheet" "~"
+			(at 67.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,17 +9494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 226.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 81.28 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 67.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +9504,76 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f7c9166-398b-46be-a944-3adc77efd361")
+			(uuid "1d921eb9-72db-4b17-8aca-be6fd08b20c8")
+		)
+		(pin "2"
+			(uuid "e002d557-75d6-48b2-bb01-8011b7ed7b9d")
+		)
+		(instances
+			(project ""
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 62.23 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a4769d-b563-4178-90d5-682f351d7ce1")
+		(property "Reference" "#PWR034"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 62.23 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8614f7b6-861a-4253-a0df-ce686715921c")
 		)
 		(instances
 			(project "StreamLite"
@@ -8748,17 +9719,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 372.11 111.76 0)
+		(lib_id "power:GND2")
+		(at 80.01 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5d46041b-3c5c-4c54-8d91-fcc94d08a075")
-		(property "Reference" "#PWR021"
-			(at 372.11 118.11 0)
+		(uuid "5fd77e52-d4a9-4551-89b5-d33f8900c151")
+		(property "Reference" "#PWR047"
+			(at 80.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,8 +9737,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 372.11 116.84 0)
+		(property "Value" "GND2"
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +9746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 111.76 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +9755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 111.76 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,8 +9763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 372.11 111.76 0)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,12 +9773,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb18e77d-947c-406a-862c-d54169e39dfb")
+			(uuid "12f3422b-b8b3-4497-8e4d-88207a02c572")
 		)
 		(instances
-			(project "StreamLite"
+			(project ""
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR021")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8884,72 +9855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61bc4094-5541-45c1-93f8-b0584a42d848")
-		(property "Reference" "#PWR06"
-			(at 49.53 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ddabd3b-4e02-462a-966d-c10a0492a6de")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 345.44 83.82 0)
 		(unit 1)
@@ -9016,17 +9921,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 114.3 83.82 0)
+		(lib_id "power:GND2")
+		(at 226.06 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68550d56-9cd0-449d-aca5-ff86be5fb57e")
+		(uuid "6597454d-cb13-4dd7-ab44-770d9c7f6de2")
 		(property "Reference" "#PWR04"
-			(at 114.3 90.17 0)
+			(at 226.06 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,8 +9939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 114.3 88.9 0)
+		(property "Value" "GND2"
+			(at 226.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 83.82 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 83.82 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,8 +9965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9975,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e90e792-e10a-40d1-baeb-c7272aeb76a6")
+			(uuid "f4c118dd-f725-4495-b398-9d786c006a8f")
 		)
 		(instances
 			(project "StreamLite"
@@ -9082,17 +9987,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 320.04 57.15 0)
+		(lib_id "power:GND1")
+		(at 320.04 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68a88a13-e3e8-4055-9518-56f5a5023ccf")
-		(property "Reference" "#PWR015"
-			(at 320.04 63.5 0)
+		(uuid "668c2c0e-6f6f-4c65-83d8-7a426c5b0153")
+		(property "Reference" "#PWR022"
+			(at 320.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,8 +10005,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 320.04 62.23 0)
+		(property "Value" "GND1"
+			(at 320.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9109,7 +10014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 57.15 0)
+			(at 320.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +10023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 57.15 0)
+			(at 320.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,74 +10031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2a3f9df-4e80-4fea-8161-ac57f5727572")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 370.84 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68ee0f5c-5998-4b37-b089-e2eeab31b83e")
-		(property "Reference" "#PWR026"
-			(at 370.84 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 370.84 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 186.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 320.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,12 +10041,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f14efd9f-6000-4388-90b1-2c9742e63c47")
+			(uuid "01f7edda-c587-48ad-8160-c0c85dc71189")
 		)
 		(instances
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9360,6 +10199,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 372.11 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740ec40f-bbd1-42da-ab92-89ece3f01e1f")
+		(property "Reference" "#PWR020"
+			(at 372.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 372.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 372.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "568b6255-aa6c-49c6-a4a8-422a742e5398")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 306.07 46.99 90)
 		(unit 1)
@@ -9428,72 +10333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 22.86 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "776d12d8-d3b0-4ab0-b5ab-8966f33da7a1")
-		(property "Reference" "#PWR036"
-			(at 22.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c8cee44-7da4-4fd8-a72a-a9171952004e")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 226.06 73.66 0)
 		(unit 1)
@@ -9554,72 +10393,6 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "799e471c-affe-495c-a955-7423516eb59a")
-		(property "Reference" "#PWR09"
-			(at 226.06 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a60deabe-309c-4e14-b3eb-a6d5adb18bcb")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9916,17 +10689,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 320.04 106.68 0)
+		(lib_id "power:GND1")
+		(at 48.26 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81dc2af8-4fcd-4399-82b5-8b076e41bb7a")
-		(property "Reference" "#PWR020"
-			(at 320.04 113.03 0)
+		(uuid "82a5f35b-d866-4fe9-be0e-2c0ff9209065")
+		(property "Reference" "#PWR039"
+			(at 48.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9934,8 +10707,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 320.04 111.76 0)
+		(property "Value" "GND1"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +10716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 106.68 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +10725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 106.68 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,74 +10733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c28d4593-918d-45f9-90a6-5207cede39f0")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 345.44 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81f3e5ff-497a-49b0-9be3-f8d343c90d79")
-		(property "Reference" "#PWR022"
-			(at 345.44 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 345.44 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,12 +10743,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a9c3649-423a-4d05-8b53-605b8e24030e")
+			(uuid "a8b44dd8-cc85-4468-b1ce-086a00d3959c")
 		)
 		(instances
-			(project "StreamLite"
+			(project ""
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR022")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10187,138 +10894,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 325.12 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cc57790-5176-4d8d-b6d3-e849e7121039")
-		(property "Reference" "#PWR030"
-			(at 325.12 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 325.12 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1382994-c834-4394-bf65-6e981de8b01f")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 350.52 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e0e6e3d-0339-4086-a51a-2d71d3986102")
-		(property "Reference" "#PWR032"
-			(at 350.52 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ee41379-230b-4886-8b48-29f99986aa73")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 114.3 67.31 0)
 		(unit 1)
@@ -10386,7 +10961,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 50.8 43.18 0)
+		(at 50.8 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10395,7 +10970,7 @@
 		(dnp no)
 		(uuid "92437816-4469-4a6b-b8c8-94e8bf71ca91")
 		(property "Reference" "C6"
-			(at 48.768 42.164 0)
+			(at 48.768 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10979,7 @@
 			)
 		)
 		(property "Value" "470u"
-			(at 48.768 43.942 0)
+			(at 48.768 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10988,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 50.8 43.18 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 43.18 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +11006,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 50.8 43.18 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +11169,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 76.2 43.18 0)
+		(at 76.2 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10603,7 +11178,7 @@
 		(dnp no)
 		(uuid "9e0653ea-d9ff-4e10-8de6-d5db34658dec")
 		(property "Reference" "C9"
-			(at 74.168 42.164 0)
+			(at 74.168 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +11187,7 @@
 			)
 		)
 		(property "Value" "10.000uF"
-			(at 74.168 43.942 0)
+			(at 74.168 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +11196,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Axial_L38.0mm_D18.0mm_P44.00mm_Horizontal"
-			(at 76.2 43.18 0)
+			(at 76.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +11205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 43.18 0)
+			(at 76.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +11214,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 76.2 43.18 0)
+			(at 76.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,72 +11320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a075eb26-6f66-4f80-be62-0522ac9b5ab8")
-		(property "Reference" "#PWR02"
-			(at 62.23 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d20d86e6-9ccb-4065-9ffa-d9137e519aaf")
-		)
-		(instances
-			(project ""
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 226.06 25.4 0)
 		(unit 1)
@@ -10871,72 +11380,6 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0f3156e-8fdb-4145-90f9-ff2b1a0c281f")
-		(property "Reference" "#PWR035"
-			(at 80.01 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb202793-6267-4d99-9408-dde554920691")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11507,6 +11950,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 320.04 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af06de68-683c-4f86-983a-3915cfbc4e6b")
+		(property "Reference" "#PWR015"
+			(at 320.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 320.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 320.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1cf01bf-eb7c-4dc7-8788-444c8e9b46ef")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 320.04 20.32 0)
 		(unit 1)
@@ -11908,16 +12417,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 91.44 138.43 0)
+		(lib_id "power:GND1")
+		(at 325.12 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c138818a-73a9-49f4-a733-f61a8cc32c59")
-		(property "Reference" "#PWR08"
-			(at 91.44 144.78 0)
+		(fields_autoplaced yes)
+		(uuid "c2235bed-343a-4e27-a265-38dc3bb25ce1")
+		(property "Reference" "#PWR030"
+			(at 325.12 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,8 +12435,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 91.694 142.748 0)
+		(property "Value" "GND1"
+			(at 325.12 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +12444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 138.43 0)
+			(at 325.12 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,7 +12453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 138.43 0)
+			(at 325.12 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,8 +12461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 138.43 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 325.12 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,12 +12471,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfcb76c4-8676-4212-8c3a-152f0e26c411")
+			(uuid "72d0bdaf-9c18-4625-a2b4-7100f23cdaa0")
 		)
 		(instances
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR08")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12103,72 +12613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 91.44 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c29ff2b0-26a0-4eba-9f30-f93b7616aa19")
-		(property "Reference" "#PWR039"
-			(at 91.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4360e73-6896-413b-804b-93259be726c9")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 91.44 165.1 0)
 		(unit 1)
@@ -12233,72 +12677,6 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 365.76 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4bd77c8-d4ea-4191-8e66-d83c00316c56")
-		(property "Reference" "#PWR016"
-			(at 365.76 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 365.76 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6049866f-ad0b-41ba-b6d4-793ba95f8363")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12445,17 +12823,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 55.88 0)
+		(lib_id "power:GND3")
+		(at 91.44 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc29411c-f2be-4821-91aa-26b2120e0694")
-		(property "Reference" "#PWR012"
-			(at 226.06 62.23 0)
+		(uuid "cd2c670d-909f-4b0f-974c-006caeef5f67")
+		(property "Reference" "#PWR06"
+			(at 91.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,8 +12841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 226.06 60.96 0)
+		(property "Value" "GND3"
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 55.88 0)
+			(at 91.44 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +12859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 55.88 0)
+			(at 91.44 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,8 +12867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 91.44 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12499,12 +12877,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0c4385a-d810-4bd3-b51b-f2549ecaeb12")
+			(uuid "7a96be06-8e14-4a17-b129-957e7ed42fe0")
 		)
 		(instances
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR012")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 345.44 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce6908cf-08ba-4841-8368-dc5eb43d4bb3")
+		(property "Reference" "#PWR021"
+			(at 345.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 345.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 345.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfb16751-9810-4851-ac6c-1c332442cbc4")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12660,17 +13104,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 40.64 0)
+		(lib_id "power:GND3")
+		(at 22.86 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d93e5b65-b859-4595-b4fd-881c1ee9cbb1")
-		(property "Reference" "#PWR07"
-			(at 125.73 46.99 0)
+		(uuid "d3d4faba-b412-49a3-9292-09f2073627bd")
+		(property "Reference" "#PWR036"
+			(at 22.86 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,8 +13122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 125.73 45.72 0)
+		(property "Value" "GND3"
+			(at 22.86 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +13131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 40.64 0)
+			(at 22.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,7 +13140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 40.64 0)
+			(at 22.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,8 +13148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 22.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12714,12 +13158,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c3bbc6f-c43d-424c-9e56-7e0b89898799")
+			(uuid "ffe5dee6-38ca-42a2-84cb-5dd28a3fd85c")
 		)
 		(instances
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR07")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 226.06 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e97d1d-5cc6-41d7-b9f0-2e731041e044")
+		(property "Reference" "#PWR012"
+			(at 226.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e218d0-eaed-4214-a541-3f4a4ab86fab")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12790,6 +13300,72 @@
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 377.19 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac25ba5-3a01-445b-be9f-29e0f241a9a2")
+		(property "Reference" "#PWR027"
+			(at 377.19 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 377.19 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 377.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54ffbcf1-cf0d-47fe-af9f-9f614431ad03")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12960,7 +13536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "Boot"
 			(at 95.25 123.1899 90)
 			(effects
 				(font
@@ -13006,72 +13582,6 @@
 			(project ""
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 377.19 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0c5c156-0931-412c-aaa4-9497ea429f95")
-		(property "Reference" "#PWR031"
-			(at 377.19 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 377.19 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 377.19 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea0d3fe3-2259-4a84-bd52-6da0bcb40041")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13259,74 +13769,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 325.12 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6985708-bfd9-469c-91e8-7f6af2a4fffc")
-		(property "Reference" "#PWR025"
-			(at 325.12 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 325.12 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dac41626-d772-46ff-b93f-f754bba126e7")
-		)
-		(instances
-			(project "StreamLite"
-				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 63.5 43.18 0)
+		(at 63.5 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13335,7 +13779,7 @@
 		(dnp no)
 		(uuid "e73478d5-4619-4620-ba4d-a150e2658c12")
 		(property "Reference" "C8"
-			(at 61.468 42.164 0)
+			(at 61.468 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13788,7 @@
 			)
 		)
 		(property "Value" "10.000uF"
-			(at 61.468 43.942 0)
+			(at 61.468 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13797,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Axial_L38.0mm_D18.0mm_P44.00mm_Horizontal"
-			(at 63.5 43.18 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13362,7 +13806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 43.18 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13371,7 +13815,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 63.5 43.18 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,17 +13839,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 345.44 66.04 0)
+		(lib_id "power:GND3")
+		(at 125.73 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb676c7f-bf72-419e-a1e5-eed106b5697c")
-		(property "Reference" "#PWR017"
-			(at 345.44 72.39 0)
+		(uuid "ee30e54e-5443-4b9d-92c7-cad2359ecade")
+		(property "Reference" "#PWR042"
+			(at 125.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,8 +13857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 345.44 71.12 0)
+		(property "Value" "GND3"
+			(at 125.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,7 +13866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 66.04 0)
+			(at 125.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 66.04 0)
+			(at 125.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,8 +13883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 125.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,12 +13893,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "66a07d5d-2470-46fd-abf4-de3220723aa1")
+			(uuid "9df1772d-ab92-4071-a11a-de8fd0410e4e")
 		)
 		(instances
 			(project "StreamLite"
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
-					(reference "#PWR017")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13747,6 +14191,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 350.52 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f479546e-392b-443c-9e02-7e02869429ec")
+		(property "Reference" "#PWR031"
+			(at 350.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 350.52 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 350.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "802c1004-913c-4d5b-8c6f-29d78eeb50f9")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 33.02 49.53 0)
 		(mirror y)
@@ -13956,6 +14466,140 @@
 			(project ""
 				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 226.06 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8788e33-8450-498d-a4f0-d54d7d991903")
+		(property "Reference" "#PWR09"
+			(at 226.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f1ba564-f727-44cc-b0ad-0b50ecf809cb")
+		)
+		(instances
+			(project "StreamLite"
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 137.16 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcbd3e4e-1b7f-439a-9fc9-1a2d50316b04")
+		(property "Reference" "NT2"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_THT_Pad1.0mm"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "452a4247-a5af-4946-b3d0-3e5b4f9c350f")
+		)
+		(pin "2"
+			(uuid "e941a3a1-028f-47a4-99d3-7f44cb8588a8")
+		)
+		(instances
+			(project ""
+				(path "/00808af3-7ee5-4ffb-86b1-d66a86620f86"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
