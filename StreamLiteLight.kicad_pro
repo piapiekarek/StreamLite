@@ -58,7 +58,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -558,10 +558,6 @@
       {
         "netclass": "3V3/GND3",
         "pattern": "GND3"
-      },
-      {
-        "netclass": "5V/GND2",
-        "pattern": "+5VP"
       }
     ]
   },
