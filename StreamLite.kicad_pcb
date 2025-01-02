@@ -2228,29 +2228,31 @@
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiXFwiLCAiRm9udENvbWJvQm94IjogIlVidW50dU1vbm8tQiIsICJIZWlnaHRDdHJsIjogMS4yLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIkxpbmVTcGFjaW5nQ3RybCI6IDEuNSwgIk11bHRpTGluZVRleHQiOiAiMjRWIEdORCA1ViIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDEuMCwgIlBhZGRpbmdMZWZ0Q3RybCI6IDIuNSwgIlBhZGRpbmdSaWdodEN0cmwiOiAyLjUsICJQYWRkaW5nVG9wQ3RybCI6IDEuMCwgIldpZHRoQ3RybCI6IDAuMCwgImFkdmFuY2VkQ2hlY2tib3giOiBmYWxzZSwgImlubGluZUZvcm1hdFRleHRib3giOiBmYWxzZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
 		(property "Reference" "kibuzzard-67243969"
-			(at 0 -3.835722 360)
+			(at 0 -3.835722 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "821847ea-cae6-45b4-be68-e42e6a8f571e")
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "G***"
-			(at 0 3.835722 360)
+			(at 0 3.835722 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c9dfebb3-f0d2-40e2-a160-4d36b1cd079f")
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e359c873-71c4-42dc-a532-daffbe65075a")
@@ -2262,7 +2264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a32c140-d740-4f66-8c9a-ea49524834fe")
@@ -2274,7 +2276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f46b22af-75dd-46a2-9a30-8009366cadad")
@@ -7320,6 +7322,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7331,6 +7334,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8376,6 +8380,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8387,6 +8392,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9976,7 +9982,7 @@
 		(descr "terminal block Metz Connect Type701_RT11L03HGLU, 3 pins, pitch 6.35mm, size 19x12.5mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_317011_RT11LxxHGLU_OFF-022798U.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect")
 		(tags "THT terminal block Metz Connect Type701_RT11L03HGLU pitch 6.35mm size 19x12.5mm^2 drill 1.3mm pad 2.5mm")
 		(property "Reference" "J8"
-			(at -4.5 -1.99 360)
+			(at -4.5 -1.99 0)
 			(layer "F.SilkS")
 			(uuid "08153d59-1959-418d-90f1-5bdb9926c1d8")
 			(effects
@@ -9987,7 +9993,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 6.35 9.06 360)
+			(at 6.35 9.06 0)
 			(layer "F.Fab")
 			(uuid "4ee77c64-0f27-4750-9036-4b223ba56966")
 			(effects
@@ -10738,7 +10744,7 @@
 			(uuid "888c701f-5b04-46c8-a78d-00a29a9db606")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 5.25 360)
+			(at 6.35 5.25 0)
 			(layer "F.Fab")
 			(uuid "6e5f7494-0145-4b2b-adc1-240e995ae0ff")
 			(effects
@@ -17469,6 +17475,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17480,6 +17487,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
